@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EmberSwipeSpike</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/ember-swipe-spike.css">
+  </head>
+  <body>
+    <script>
+      window.EmberSwipeSpikeENV = {{ENV}};
+      window.EmberENV = window.EmberSwipeSpikeENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/ember-swipe-spike.js"></script>
+    <script>
+      window.EmberSwipeSpike = require('ember-swipe-spike/app')['default'].create(EmberSwipeSpikeENV.APP);
+    </script>
+  </body>
+</html>
