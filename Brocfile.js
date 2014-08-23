@@ -20,5 +20,7 @@ var app = new EmberApp();
 //HammerJS
 app.import('vendor/hammerjs/hammer.js');
 
+//Ember Animate
+app.import('vendor/ember-animate/ember-animate.js');
 
 module.exports = app.toTree();
