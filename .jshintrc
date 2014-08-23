@@ -2,7 +2,8 @@
   "predef": {
     "document": true,
     "window": true,
-    "EmberSwipeSpikeENV": true
+    "EmberSwipeSpikeENV": true,
+    "Hammer":true
   },
   "browser" : true,
   "boss" : true,
